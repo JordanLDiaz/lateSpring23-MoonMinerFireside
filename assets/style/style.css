@@ -1,0 +1,40 @@
+/* BASIC STYLES HERE */
+.space-bg {
+  background-image: url('https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+  background-position: center;
+  background-size: cover;
+}
+
+.righteous {
+  font-family: 'Righteous', cursive;
+}
+
+.text-shadow {
+  text-shadow: 4px 4px 4px rgb(42, 42, 42);
+}
+
+.otter {
+  max-height: 45vh;
+  cursor: pointer;
+  filter: drop-shadow(0 0 20px #9c86ff);
+  transition: .3s ease-in-out;
+}
+
+.otter:hover {
+  transform: scale(1.05);
+}
+
+.otter:active {
+  transform: scale(.9);
+}
+
+.stat-card {
+  background-color: #6444f1c4;
+  border: 2px solid black;
+  padding: 1.5rem;
+}
+
+.btn-purple {
+  background-color: #3a2a7f;
+  color: whitesmoke
+}
